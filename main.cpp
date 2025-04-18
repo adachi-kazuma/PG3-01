@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <iostream>
+#include <Windows.h>
 
 int main()
 {
-	printf("Hello �匴�搶");
+	char str[] = "ソs品";
+	printf("%s",str);
 
 	return 0;
 }
